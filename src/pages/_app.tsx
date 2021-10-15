@@ -18,7 +18,15 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 
   const pages = [
     { name: "Home", url: "/" },
-    { name: "About", url: "/about" }
+    { name: "useState", url: "/useState" },
+    { name: "useEffect", url: "/useEffect" },
+    { name: "useContext", url: "/useContext" },
+    { name: "useReducer", url: "/useReducer" },
+    { name: "useCallback", url: "/useCallback" },
+    { name: "useMemo", url: "/useMemo" },
+    { name: "useRef", url: "/useRef" },
+    { name: "useImperativeHandle", url: "/useImperativeHandle" },
+    { name: "useLayoutEffect", url: "/useLayoutEffect" }
   ]
 
   return (

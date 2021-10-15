@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
-import Link from "next/link"
 import CodeHighlight from 'components/CodeHighlight'
 
-const About: NextPage = () => {
+const useStatePage: NextPage = () => {
   const codeString = `import type { NextPage } from 'next'
   import Link from 'next/link'
   import { createStyles, makeStyles } from '@mui/styles';
@@ -34,15 +33,13 @@ const About: NextPage = () => {
   }
 
   export default Home`;
+
   return (
     <>
-      <p>About page</p>
-      <Link href="/">
-        <a> Go to Home </a>
-      </Link>
+      <p>Hooks page</p>
       <CodeHighlight code_str={codeString} />
     </>
   )
 }
 
-export default About
+export default useStatePage
