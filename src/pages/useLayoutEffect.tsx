@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import CodeHighlight from 'components/CodeHighlight'
+import UseLayoutEffectExample from 'components/hooks/useLayoutEffect/UseLayoutEffectExample'
 
 const useLayoutEffectPage: NextPage = () => {
 
   return (
     <>
-      <p>Hooks page</p>
+      <UseLayoutEffectExample />
     </>
   )
 }

@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import CodeHighlight from 'components/CodeHighlight'
+import UseImperativeHandleExample from 'components/hooks/useImperativeHandle/UseImperativeHandleExample'
 
 const useImperativeHandlePage: NextPage = () => {
 
   return (
     <>
-      <p>Hooks page</p>
+      <UseImperativeHandleExample />
     </>
   )
 }

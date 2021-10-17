@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import CodeHighlight from 'components/CodeHighlight'
+import UseMemoExample from 'components/hooks/useMemo/UseMemoExample'
 
 const useMemoPage: NextPage = () => {
 
   return (
     <>
-      <p>Hooks page</p>
+      <UseMemoExample />
     </>
   )
 }
