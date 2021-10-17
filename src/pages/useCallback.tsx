@@ -5,7 +5,7 @@ const useCallbackPage: NextPage = () => {
 
   return (
     <>
-      <UseCallBackExample />
+      <UseCallbackExample />
     </>
   )
 }
