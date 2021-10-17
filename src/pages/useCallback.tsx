@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import UseCallBackExample from 'components/hooks/useCallback/UseCallBackExample'
+import UseCallbackExample from 'components/hooks/useCallback/UseCallbackExample'
 
 const useCallbackPage: NextPage = () => {
 
